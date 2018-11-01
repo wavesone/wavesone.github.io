@@ -1,2 +1,1 @@
-# wavesone.github.io
-waves.one
+# Código Fonte Do Site [Waves.One](https://waves.one)

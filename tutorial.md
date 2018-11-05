@@ -131,7 +131,7 @@ title: Tutorial
 #### Para iniciar o nó vamos usar o `screen` para criar uma tela alternativa para iniciar e parar o nó.
 
 #### Comando para iniciar o nó:
-`screen -d -S wavesd -m java -jar waves-all-0.14.7.jar waves-mainnet.conf`
+`screen -d -S wavesd -m java -Xmx3072M -jar waves-all-0.14.7.jar waves-mainnet.conf`
 
 #### Depois de iniciar o nó para voltar ao terminal digite `Ctrl-a` e `Ctrl-d`.
 

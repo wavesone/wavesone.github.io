@@ -56,9 +56,9 @@ title: Tutorial
 ### Existem duas formas de instalar o software WAVES, a primeira é através do pacote debian `.DEB` que só serve para Debian e seus derivados e a segunda é através do binário java `.JAR` que serve para qualquer outra distribuição GNU/Linux.
 
 #### Vamos baixar e instalar a WAVES através do pacote debian `.DEB`
-`wget https://github.com/wavesplatform/Waves/releases/download/v0.14.7/waves_0.14.6_all.deb`
+`wget https://github.com/wavesplatform/Waves/releases/download/v0.15.4/waves_0.15.4_all.deb`
 
-`sudo dpkg -i waves_0.14.7_all.deb`
+`sudo dpkg -i waves_0.15.4_all.deb`
 
 #### O arquivo de configuração do pacote `.DEB`fica localizado em `/etc/waves/waves.conf` e com esse comando você abre o arquivo de configuração do nó (muito cuidado para não errar nada ao realizar as modificações).
 `sudo nano /etc/waves/waves.conf`
@@ -118,7 +118,7 @@ title: Tutorial
 
 
 ### Vamos baixar e instalar a WAVES através do binário java `.JAR`
-`wget https://github.com/wavesplatform/Waves/releases/download/v0.14.7/waves-all-0.14.7.jar`
+`wget https://github.com/wavesplatform/Waves/releases/download/v0.15.4/waves-all-0.15.4.jar`
 
 #### Baixe o arquivo de configuração completo a partir do meu github:
 `wget https://raw.githubusercontent.com/wavesone/wavesone.github.io/master/public/conf/waves-mainnet.conf`
@@ -131,7 +131,7 @@ title: Tutorial
 #### Para iniciar o nó vamos usar o `screen` para criar uma tela alternativa para iniciar e parar o nó.
 
 #### Comando para iniciar o nó:
-`screen -d -S wavesd -m java -Xmx3072M -jar waves-all-0.14.7.jar waves-mainnet.conf`
+`screen -d -S wavesd -m java -Xmx3072M -jar waves-all-0.15.4.jar waves-mainnet.conf`
 
 #### Depois de iniciar o nó para voltar ao terminal digite `Ctrl-a` e `Ctrl-d`.
 
@@ -253,7 +253,7 @@ title: Tutorial
 #### Dentro do `[ ]` você deve colocar os números das funcionalidades que deseja habilitar separados por virgula, veja o exemplo do modelo abaixo:
 ```
   features {
-    supported = [1, 2, 3, 4, 5, 6, 7, 8]
+    supported = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   }
 ```
 

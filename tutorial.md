@@ -29,7 +29,7 @@ title: Tutorial
 
 `apt full-upgrade -y`
 
-`apt install sudo default-jdk default-jre default-jre-headless htop screen iptables iptables-persistent -y`
+`apt install sudo default-jdk default-jre default-jre-headless htop screen curl iptables iptables-persistent -y`
 
 #### Agora vamos adicionar um novo usuário pra evitar usar a conta raiz (_root_), pois é muito perigoso. Escolha uma senha muito forte sempre algo aleatório acima de 16 caracteres incluindo letras, maiúscula e minuscula, números e símbolos, ou se você achar mais comodo gere uma _SEED_ na _waves wallet_ e use ela como senha vai ser ate mais seguro pois sera uma senha aleatória.
 ![](https://raw.githubusercontent.com/wavesone/wavesone.github.io/master/public/img/seedcomosenha.png)
@@ -56,9 +56,13 @@ title: Tutorial
 ### Existem duas formas de instalar o software WAVES, a primeira é através do pacote debian `.DEB` que só serve para Debian e seus derivados e a segunda é através do binário java `.JAR` que serve para qualquer outra distribuição GNU/Linux.
 
 #### Vamos baixar e instalar a WAVES através do pacote debian `.DEB`
-`wget https://github.com/wavesplatform/Waves/releases/download/v0.15.4/waves_0.15.4_all.deb`
 
-`sudo dpkg -i waves_0.15.4_all.deb`
+`curl -s https://api.github.com/repos/wavesplatform/Waves/releases/latest | jq ".assets[1].browser_download_url" | sed 's/["]//g' | wget -i -`
+
+`sudo dpkg -i *.deb`
+
+#### Remova o o pacote depois de fazer a instalação
+`rm -rf *.deb`
 
 #### O arquivo de configuração do pacote `.DEB`fica localizado em `/etc/waves/waves.conf` e com esse comando você abre o arquivo de configuração do nó (muito cuidado para não errar nada ao realizar as modificações).
 `sudo nano /etc/waves/waves.conf`
@@ -118,7 +122,9 @@ title: Tutorial
 
 
 ### Vamos baixar e instalar a WAVES através do binário java `.JAR`
-`wget https://github.com/wavesplatform/Waves/releases/download/v0.15.4/waves-all-0.15.4.jar`
+`curl -s https://api.github.com/repos/wavesplatform/Waves/releases/latest | jq ".assets[0].browser_download_url" | sed 's/["]//g' | wget -i -`
+#### Mas antes de baixar a nova versão apague o binario da versão anterior
+`rm -rf *.jar`
 
 #### Baixe o arquivo de configuração completo a partir do meu github:
 `wget https://raw.githubusercontent.com/wavesone/wavesone.github.io/master/public/conf/waves-mainnet.conf`
@@ -131,7 +137,7 @@ title: Tutorial
 #### Para iniciar o nó vamos usar o `screen` para criar uma tela alternativa para iniciar e parar o nó.
 
 #### Comando para iniciar o nó:
-`screen -d -S wavesd -m java -Xmx3072M -jar waves-all-0.15.4.jar waves-mainnet.conf`
+`screen -d -S wavesd -m java -Xmx3072M -jar *.jar waves-mainnet.conf`
 
 #### Depois de iniciar o nó para voltar ao terminal digite `Ctrl-a` e `Ctrl-d`.
 
@@ -250,14 +256,14 @@ title: Tutorial
   }
 ```
 
-#### Dentro do `[ ]` você deve colocar os números das funcionalidades que deseja habilitar separados por virgula, veja o exemplo do modelo abaixo:
+#### Dentro do `[]` você deve colocar os números das funcionalidades que deseja habilitar separados por virgula, veja o exemplo do modelo abaixo:
 ```
   features {
     supported = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   }
 ```
 
-#### Reinicie o nó para aplicar as mudanças
+#### Reinicie o nó para aplicar as mudanças e quando as funcionalidades forem votadas e ativadas você deve apagar os números das funcionalidades.
 
 ### Depois que o nó estiver 100% sincronizado vamos configurar um firewall básico para proteger seu servidor VPS.
 
@@ -285,32 +291,11 @@ title: Tutorial
 
 #### Atualizando o nó para a versão mais recente no Linux
 
-#### Primeiro de tudo, você precisa verificar o último lançamento do Waves. e escolha a versão mais recente da Mainnet.
-
-1. #### Faça o download do arquivo .DEB 
-`wget https://github.com/wavesplatform/Waves/releases/download/X.Y.Z/waves_X.Y.Z_all.deb`
-
-2. #### Pare o Nó executando o seguinte comando:
-`sudo systemctl stop waves`
-
-3. #### Depois de parar o nó, execute o seguinte comando para exportar blocos existentes para um arquivo binário:
-`sudo -u waves exporter /etc/waves/waves.conf /usr/share/waves/mainnet`
-
-4. #### Remova a pasta de dados:
-`sudo rm -rdf /var/lib/waves/data`
-
-5. #### Instale a nova versão do nó:
-`sudo dpkg -i waves_X.Y.Z_all.deb`
-
-6. #### Importe blocos do arquivo binário:
-`sudo -u waves importer /etc/waves/waves.conf /usr/share/waves/mainnet-[some height]`
-
-7. #### Após a importação, inicie o nó:
-`sudo systemctl start waves`
-
-8. #### Não se esqueça de remover arquivos blockchain binários se você não precisar deles mais:
-`sudo rm -rf /usr/share/waves/mainnet-alturadoblocosalvo`
-
+##### Primeiro de tudo, você precisa verificar o último lançamento do Waves. e baixe a versão mais recente da MainNet.
+1. ##### Faça o download do arquivo `.DEB` ou `.JAR`, dependendo do seu sistema operacional.
+2. ##### Atualize o `.DEB` e ou `.JAR` copiando a nova versão sobre a antiga
+3. ##### Verifique as notas de lançamento.
+5. ##### Se houver novos recursos para votar e ativar, você precisará incluir isso no arquivo de configuração.
 
 #### Aqui você pode verificar como está a saúde do seu nó olhando o site:
 [http://dev.pywaves.org](http://dev.pywaves.org)

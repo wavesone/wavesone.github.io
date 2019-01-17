@@ -123,7 +123,7 @@ title: Tutorial
 
 ### Vamos baixar e instalar a WAVES através do binário java `.JAR`
 `curl -s https://api.github.com/repos/wavesplatform/Waves/releases/latest | jq ".assets[0].browser_download_url" | sed 's/["]//g' | wget -i -`
-#### Mas antes de baixar a nova versão apague o binario da versão anterior
+#### Mas antes de baixar a nova versão apague o binário da versão anterior
 `rm -rf *.jar`
 
 #### Baixe o arquivo de configuração completo a partir do meu github:
@@ -289,9 +289,8 @@ title: Tutorial
 
 ### Só mais algumas dicas.
 
-#### Atualizando o nó para a versão mais recente no Linux
-
-##### Primeiro de tudo, você precisa verificar o último lançamento do Waves. e baixe a versão mais recente da MainNet.
+### Atualizando o nó para a versão mais recente no Linux
+#### Primeiro de tudo, você precisa verificar o último lançamento do Waves. e baixe a versão mais recente da MainNet.
 1. ##### Faça o download do arquivo `.DEB` ou `.JAR`, dependendo do seu sistema operacional.
 2. ##### Atualize o `.DEB` e ou `.JAR` copiando a nova versão sobre a antiga
 3. ##### Verifique as notas de lançamento.
@@ -299,6 +298,15 @@ title: Tutorial
 
 #### Aqui você pode verificar como está a saúde do seu nó olhando o site:
 [http://dev.pywaves.org](http://dev.pywaves.org)
+
+#### Aqui você vera a lista de carteiras já criadas e o saldo:
+[http://dev.pywaves.org/balances](http://dev.pywaves.org/balances)
+
+#### Aqui você vera a lista de tokens já criados:
+[http://dev.pywaves.org/assets](http://dev.pywaves.org/assets)
+
+#### Aqui você vera os blocos forjados:
+[http://dev.pywaves.org/blocks](http://dev.pywaves.org/blocks)
 
 #### Aqui você vera a lista de nós, e pode verificar a saúde deles, se estão sincronizando corretamente, se tem alguma bifurcação, se a porta p2p está aberta ou matcher está habilitado.
 [http://dev.pywaves.org/nodes](http://dev.pywaves.org/nodes)

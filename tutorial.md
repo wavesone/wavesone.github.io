@@ -154,14 +154,14 @@ title: Tutorial
 #### Para monitorar o uso de CPU e memoria do seu nó na sua VPS use o comando:
 `htop`
 
-### Depois que você baixar a versão mais recente do waves-lite-client.
+### Agora você baixar e instalara versão mais recente do waves-lite-client.
 `https://github.com/wavesplatform/WavesGUI/releases`
 
-#### Para o pacote `.DEB` abra o arquivo de configuração:
-`sudo nano /etc/waves/waves.conf` 
 
-#### Para o pacote `.JAR` abra o arquivo de configuração:
-`sudo nano waves-mainnet.conf` 
+ 
+
+
+
 
 #### Você deve criar uma nova _senha_ assim como fez quando criou um [usuário para acessar a sua vps](#agora-vamos-adicionar-um-novo-usu%C3%A1rio-pra-evitar-usar-a-conta-raiz-root-pois-%C3%A9-muito-perigoso-escolha-uma-senha-muito-forte-sempre-algo-aleat%C3%B3rio-acima-de-16-caracteres-incluindo-letras-mai%C3%BAscula-e-minuscula-n%C3%BAmeros-e-s%C3%ADmbolos-ou-se-voc%C3%AA-achar-mais-comodo-gere-uma-seed-na-waves-wallet-e-use-ela-como-senha-vai-ser-ate-mais-seguro-pois-sera-uma-senha-aleat%C3%B3ria).
 

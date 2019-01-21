@@ -163,7 +163,7 @@ title: Tutorial
 
 
 
-#### Você deve criar uma nova _senha_ assim como fez quando criou um [usuário para acessar a sua vps](#agora-vamos-adicionar-um-novo-usu%C3%A1rio-pra-evitar-usar-a-conta-raiz-root-pois-%C3%A9-muito-perigoso-escolha-uma-senha-muito-forte-sempre-algo-aleat%C3%B3rio-acima-de-16-caracteres-incluindo-letras-mai%C3%BAscula-e-minuscula-n%C3%BAmeros-e-s%C3%ADmbolos-ou-se-voc%C3%AA-achar-mais-comodo-gere-uma-seed-na-waves-wallet-e-use-ela-como-senha-vai-ser-ate-mais-seguro-pois-sera-uma-senha-aleat%C3%B3ria).
+#### Abra o client-lite e crie uma nova _senha_ assim como fez quando criou um [usuário para acessar a sua vps](#agora-vamos-adicionar-um-novo-usu%C3%A1rio-pra-evitar-usar-a-conta-raiz-root-pois-%C3%A9-muito-perigoso-escolha-uma-senha-muito-forte-sempre-algo-aleat%C3%B3rio-acima-de-16-caracteres-incluindo-letras-mai%C3%BAscula-e-minuscula-n%C3%BAmeros-e-s%C3%ADmbolos-ou-se-voc%C3%AA-achar-mais-comodo-gere-uma-seed-na-waves-wallet-e-use-ela-como-senha-vai-ser-ate-mais-seguro-pois-sera-uma-senha-aleat%C3%B3ria).
 
 ```
     # Password to protect wallet file

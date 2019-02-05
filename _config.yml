@@ -6,7 +6,7 @@ title:               NÓ COMPLETO WAVES PLATFORM!
 tagline:             Alugue suas WAVES e receba recompensas!
 description:         O lease proof of stake (LPOS) permite que os detentores de WAVES lucrem usando seus saldos para proteger a rede, mantendo o controle total de seus fundos!
 url:                 https://waves.one
-baseurl:             'https://waves.one/'
+baseurl:             ''
 paginate:            5
 
 # About/contact

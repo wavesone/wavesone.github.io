@@ -1,9 +1,9 @@
 ---
 layout: page
-title: TOKEN WAVESONE
+title: W1TOKEN
 ---
 
-# Nosso Token Oficial _WAVESONE_
+# Nosso Token Oficial _W1TOKEN_
 
 ## Este token será utilizado para divulgar nosso [nó](https://wavesexplorer.com/address/3PMS11qQPgwYDDSWxME7wcwJ5ys3umd11SU), [serviços](https://wavesexplorer.com/tx/AcghhRfmsTViLtmi4SejN6En2weEUcTRj5rBTwBCMMrZ) e [projetos](https://waves.one/projetos)!
 
@@ -12,7 +12,7 @@ title: TOKEN WAVESONE
 ### Timestamp: `2018-12-17 13:42:34`
 ### Block: `1310133`
 ### Asset ID:`BHDoJVmw5Du3uvWa84kkkeXHXhetJBgM7k27hVJSn94p`
-### Asset Name: `WAVESONE`
+### Asset Name: `W1TOKEN`
 ### Reissuable: `false`
 ### Amount: `1.000000`
 ### Decimals: `6`

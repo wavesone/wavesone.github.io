@@ -6,7 +6,7 @@ title: Tutorial
 # Tutorial de configuração de um Full Node "Nó Completo" (gerador de blocos) WAVES!
 
 
-### Para começar você precisa ter uma VPS (_servidor virtal privado_) com no mínimo 4GB de memoria RAM, 40GB de SSD e ter 1000 WAVES ou mais (_só é necessário ter 1000 WAVES se você for gerar blocos, caso contrario não é necessário_).
+### Para começar você precisa ter uma VPS (_servidor virtal privado_) com no mínimo 4GB de memória RAM, 40GB de SSD e ter 1000 WAVES ou mais (_só é necessário ter 1000 WAVES se você for gerar blocos, caso contrario não é necessário_).
 
 ### Existem vários provedores de servidores virtuais privados (VPS), mas atenção não use qualquer provedor para rodar coisas criticas como um full node waves, pois se o provedor não for confiável você pode ter seus fundos roubados ou sua VPS não terá eficiência.
 
@@ -154,7 +154,7 @@ title: Tutorial
 #### Para monitorar o uso de CPU e memoria do seu nó na sua VPS use o comando:
 `htop`
 
-### Agora você baixar e instalara versão mais recente do waves-lite-client.
+### Agora você baixar e instalar a versão mais recente do waves-lite-client.
 `https://github.com/wavesplatform/WavesGUI/releases`
 
 
@@ -203,7 +203,7 @@ title: Tutorial
 
 ### Só falta iniciar o nó e esperar ele sincronizar toda a blockchain, que demora em media 8 horas (mas isso depende muito da sua VPS, internet, memoria e processamento melhor podem tornar a sincronização mais rápida).
 
-### Agora você precisa configurar a REST API do nó, ou seja uma interface para executar chamadas RPC no nó.
+### Agora você precisa configurar a `REST API` do nó, ou seja uma interface para executar chamadas `RPC` no nó.
 
 #### Atenção! Para melhor segurança, não altere `bind-address = "127.0.0.1"`se você não sabe o que está fazendo! Para acesso externo, você deve usar o módulo proxy_pass do Nginx ou o encaminhamento de porta SSH (no no tutorial usarei encaminhamento de porta SSH).
 
@@ -285,9 +285,9 @@ title: Tutorial
 #### Se tudo ocorreu bem basta tornar as regras permanentes.
 `sudo iptables-save > /etc/iptables/rules.v4`
 
-## Pronto seu nó está configurado e seguro e pronto para gerar blocos.
+### Pronto seu nó está configurado e seguro e pronto para gerar blocos.
 
-### Só mais algumas dicas.
+## Só mais algumas dicas.
 
 ### Atualizando o nó para a versão mais recente no Linux
 #### Primeiro de tudo, você precisa verificar o último lançamento do Waves. e baixe a versão mais recente da MainNet.

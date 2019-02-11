@@ -20,7 +20,7 @@ title: Projetos
 ### O nosso servidor _Matrix_ é o: [https://matrix.cryptodont.io](https://matrix.cryptodont.io).
 
 ### Usem o cliente _Riot_ para o _Matrix_.
-#### Baixe o app [riot.im](https://riot.im) funciona no _Android_ _IOS_ e _PC_.
+#### Baixe o app [riot.im](https://riot.im) funciona no _Android_, _IOS_ e _Computador_.
 
 #### Coloque email ou número (só é necessário e-mail ou número de telefone caso precise recuperar a senha) se você não perder a senha email ou telefone não serão necessários use apenas um nome de usuário e senha que você não esqueça.
 #### Configure o app para usar o servidor matrix.cryptodont.io marque a caixinha [√] Use opções customizadas de servidor (avançado).

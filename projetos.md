@@ -3,15 +3,15 @@ layout: page
 title: Projetos
 ---
 
-## Ao alugar suas WAVES para o meu nó [waves.one](https://waves.one) vocês estarão ajudando a manter os serviços do [cryptodont.io](https://cryptodont.io) que são algumas redes descentralizadas e de código aberto!
+## Ao alugar suas WAVES para o nó [waves.one](https://waves.one) vocês estarão ajudando a manter os serviços do [cryptodont.io](https://cryptodont.io), que são servidores de redes descentralizadas e de código aberto!
 
-1. **Mastodon** (substituto para o **twitter**)
+1. **Mastodon** (alternativa descentralizada  ao **twitter**)
 
-2. **Matrix** (substituto para o **telegram**)
+2. **Matrix** (alternativa descentralizada  ao **whatsapp**)
 
 ### Não sabe o que é _Mastodon_?
 #### O Mastodon possui recursos de microblogging semelhantes ao Twitter.
-#### O Mastodon é uma rede social federada e distribuídaque faz parte do Fediverse, uma rede interconectada e descentralizada de servidores operados independentemente.
+#### O Mastodon é uma rede social federada e distribuída que faz parte do [Fediverse](https://en.wikipedia.org/wiki/Fediverse), uma rede interconectada e descentralizada de servidores operados independentemente.
 ### O nosso servidor _Mastodon_ é o: [https://mastodon.cryptodont.io](https://mastodon.cryptodont.io).
 
 
@@ -26,14 +26,14 @@ title: Projetos
 #### Configure o app para usar o servidor matrix.cryptodont.io marque a caixinha [√] Use opções customizadas de servidor (avançado).
 #### Troque o [https://matrix.org](https://matrix.org) por [https://matrix.cryptodont.io](https://matrix.cryptodont.io), e faça o cadastro.
 
-### Usem o cliente _Mastlab_ para o _Mastodon_.
-#### Baixe o app _Mastodon_ [mastalab.app](https://mastalab.app) funciona no _Android_, configure o app para usar o servidor [https://mastodon.cryptodont.io](https://mastodon.cryptodont.io) e faça o cadastro.
+### Usem o cliente _Fedilab_ para o _Mastodon_.
+#### Baixe o app _Mastodon_ [fedilab.app](https://fedilab.app) funciona no _Android_, configure o app para usar o servidor [https://mastodon.cryptodont.io](https://mastodon.cryptodont.io) e faça o cadastro.
 
 ## Pronto seja livre para usar como quiser as melhores redes descentralizadas de comunicação e interação.
 
 ### Nosso grupo na rede _Matrix_: [https://matrix.to/#/#waves.one:matrix.cryptodont.io](https://matrix.to/#/#waves.one:matrix.cryptodont.io).
 
-### Me siga no _Mastodon_: [https://mastodon.cryptodont.io/@wallisonalves](https://mastodon.cryptodont.io/@wallisonalves)
+### Me encontre no _Mastodon_: [https://mastodon.cryptodont.io/@wallisonalves](https://mastodon.cryptodont.io/@wallisonalves)
 ### Me encontre no _Matrix_: [https://matrix.to/#/#alveswallison:matrix.cryptodont.io](https://matrix.to/#/#alveswallison:matrix.cryptodont.io).
 
-## Em Breve mais serviços estarão disponíveis!
+## Em breve mais serviços estarão disponíveis!

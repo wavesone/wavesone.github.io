@@ -12,8 +12,8 @@ paginate:            5
 # About/contact
 author:
   name:              Wallison Alves
-  url:               https://twitter.com/wall_is_on
-  email:             wallisonalvesdeoliveira@zoho.com
+  url:               https://wallisonalves.com
+  email:             email@wallisonalves.com
 
 # Custom vars
 version:             1.0.0

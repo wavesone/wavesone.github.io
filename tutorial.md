@@ -139,6 +139,8 @@ title: Tutorial
 #### Comando para iniciar o nó:
 `screen -d -S wavesd -m java -Xmx3072M -jar *.jar waves-mainnet.conf`
 
+#### Observe que o valor contido no parâmetro `-Xmx3072M` deve ser sempre 70% da memória RAM livre do seu servidor.
+
 #### Depois de iniciar o nó para voltar ao terminal digite `Ctrl-a` e `Ctrl-d`.
 
 #### Para voltar a tela do screen onde iniciou o nó e ver o progresso do dele, use o comando:

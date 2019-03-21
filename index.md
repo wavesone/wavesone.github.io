@@ -46,12 +46,12 @@ Para "minar" as **WAVES**, tudo o que você precisa fazer é **arrendar** o pode
 
 ### Como funciona?
 
-Nós tentamos fazer o mais fácil possível. Você **aluga** suas Waves para nós e todo **domingo** nós lhe enviamos sua parte dos **lucros** gerados pelo pool **(menos a taxa de transação de 0,001)** de acordo com a quantidade de Waves que você alugou.
+Nós tentamos fazer o mais fácil possível. Você **aluga** suas Waves para nós e todo **1º** nós lhe enviamos sua parte dos **lucros** gerados pelo pool **(menos a taxa de transação de 0,001)** de acordo com a quantidade de Waves que você alugou.
 
-Você precisa deixar suas waves conosco por um período mínimo de **7 dias**. Se você cancelar seu contrato antes de 7 dias, você não receberá nenhuma taxa. Você receberá taxas em proporção ao tempo que você alugou, então se você começar a alugar na sexta-feira, você receberá **2** dias de taxas no domingo.
+Você precisa deixar suas waves conosco por uma quantidade mínima de **5** blocos forjados. Se você cancelar seu contrato antes de ter 5 blocos forjados depois, você não receberá nenhuma taxa. Você receberá taxas em proporção ao tempo que você alugou.
 
-Você não precisa re-locar depois de todo domingo!
-Apenas deixe suas waves alugadas para nós e você continuará sendo **pago** todo domingo.
+Você não precisa re-locar depois de todo dia 1º!
+Apenas deixe suas waves alugadas para nós e você continuará sendo **pago** todo dia 1º.
 
 ### Quanto você paga? Você cobra uma taxa?
 
@@ -69,7 +69,7 @@ E para calcular a sua recompensa beseado no seu saldo em Waves acesse essa [pág
 
 ### Existe uma quantidade mínima de Waves que eu posso alugar?
 
-Não, mas só enviaremos seu pagamento **semanal** se você tiver mais de **0,001** Waves.
+Não, mas só enviaremos seu pagamento **mensal** se você tiver mais de **0,001** Waves.
 
 ### Ótimo, me diga qual é a maneira mais fácil de alugar minhas WAVES.
 
@@ -107,14 +107,17 @@ Não, mas só enviaremos seu pagamento **semanal** se você tiver mais de **0,00
 * * *
 ## Para mais detalhes sobre a WAVES acesse o site oficial: [https://wavesplatform.com](https://wavesplatform.com).
 
-## Sobre o nosso token w1: [https://waves.one/w1](./w1)
+## Sobre o nosso token waves1: [https://waves.one/waves1](./waves1)
 ## Sobre o nó Waves.One: [https://waves.one/sobre](./sobre).
 ## Se você quiser criar um full node basta seguir siga o Tutorial para criar um nó: [https://waves.one/tutorial](./tutorial).
 ## Projetos Patrocinados: [https://waves.one/projetos](./projetos).
 
 * * *
 ## Suporte ou Contato
-### E-Mail [wallisonalvesdeoliveira@zoho.com](mailto:wallisonalvesdeoliveira@zoho.com).
+### E-Mail [contato@waves.one](mailto:contato@waves.one).
+### Tox [C9044094FB3508121E93FB002E6781BF2AA583E37EB253576DDEFAA345F4E41CD1C63D546E58](C9044094FB3508121E93FB002E6781BF2AA583E37EB253576DDEFAA345F4E41CD1C63D546E58).
+### Meu Mastodon [@wallisonalves@mastodon.cryptodont.io](http://mastodon.cryptodont.io/@wallisonalves).
+### Meu Matrix [@alveswallison:matrix.cryptodont.io](https://matrix.to/#/@alveswallison:matrix.cryptodont.io).
 ### Meu Telegram [@wallisonalves](http://t.me/wallisonalves).
 ### Meu Twitter [@wall_is_on](http://twitter.com/wall_is_on).
 ### Grupo no Telegram [@wavesone](http://t.me/wavesone).

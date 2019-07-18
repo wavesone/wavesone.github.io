@@ -57,7 +57,7 @@ title: Tutorial
 
 #### Vamos baixar e instalar a WAVES através do pacote debian `.DEB`
 
-`curl -s https://api.github.com/repos/wavesplatform/Waves/releases/latest | jq ".assets[1].browser_download_url" | sed 's/["]//g' | wget -i -`
+`curl -s https://api.github.com/repos/wavesplatform/Waves/releases/latest | jq ".assets[4].browser_download_url" | sed 's/["]//g' | wget -i -`
 
 `sudo dpkg -i *.deb`
 
@@ -122,7 +122,7 @@ title: Tutorial
 
 
 ### Vamos baixar e instalar a WAVES através do binário java `.JAR`
-`curl -s https://api.github.com/repos/wavesplatform/Waves/releases/latest | jq ".assets[0].browser_download_url" | sed 's/["]//g' | wget -i -`
+`curl -s https://api.github.com/repos/wavesplatform/Waves/releases/latest | jq ".assets[3].browser_download_url" | sed 's/["]//g' | wget -i -`
 #### Mas antes de baixar a nova versão apague o binário da versão anterior
 `rm -rf *.jar`
 
@@ -151,18 +151,13 @@ title: Tutorial
 #### Para visualizar os logs do nó ou seja os registros do que está acontecendo:
 `nano waves/log/waves.log`
 
-#### Todos os dados gerados pelo seu nó como: wallet, logs e o blockchain serão encontrados na pasta `$HOME/waves/`.
+#### Todos os dados gerados pelo seu nó como: wallet, logs e o blockchain serão encontrados na pasta `~/.local/share/waves-mainnet`.
 
 #### Para monitorar o uso de CPU e memoria do seu nó na sua VPS use o comando:
 `htop`
 
 ### Agora você baixar e instalar a versão mais recente do waves-lite-client.
 `https://github.com/wavesplatform/WavesGUI/releases`
-
-
- 
-
-
 
 
 #### Abra o client-lite e crie uma nova _senha_ assim como fez quando criou um [usuário para acessar a sua vps](#agora-vamos-adicionar-um-novo-usu%C3%A1rio-pra-evitar-usar-a-conta-raiz-root-pois-%C3%A9-muito-perigoso-escolha-uma-senha-muito-forte-sempre-algo-aleat%C3%B3rio-acima-de-16-caracteres-incluindo-letras-mai%C3%BAscula-e-minuscula-n%C3%BAmeros-e-s%C3%ADmbolos-ou-se-voc%C3%AA-achar-mais-comodo-gere-uma-seed-na-waves-wallet-e-use-ela-como-senha-vai-ser-ate-mais-seguro-pois-sera-uma-senha-aleat%C3%B3ria).

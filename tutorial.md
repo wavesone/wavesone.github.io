@@ -57,7 +57,7 @@ title: Tutorial
 
 #### Vamos baixar e instalar a WAVES através do pacote debian `.DEB`
 
-`curl -s https://api.github.com/repos/wavesplatform/Waves/releases/latest | jq ".assets[4].browser_download_url" | sed 's/["]//g' | wget -i -`
+`curl -s https://api.github.com/repos/wavesplatform/Waves/releases/latest | jq ".assets[5].browser_download_url" | sed 's/["]//g' | wget -i -`
 
 `sudo dpkg -i *.deb`
 
